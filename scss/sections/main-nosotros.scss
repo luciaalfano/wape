@@ -1,0 +1,38 @@
+.mainn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2o {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: #66669f;
+}
+
+iframe {
+    margin: 10px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.mainn p {
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    background-color: #c0c0e8;
+    border-radius: 20px;
+
+}

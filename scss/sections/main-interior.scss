@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainint {
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainint img {
+    align-items: center;
+    margin: 20px;
+    height: 150px;
+
+}
+
+.mainint p {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 20px;
+}
+
+.h1int {
+    box-shadow: 0px 5px 10px #66669f;
+    padding: 25px;
+    text-align: center;
+}

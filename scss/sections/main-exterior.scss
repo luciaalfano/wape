@@ -1,0 +1,34 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.maincontacto h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.mainext {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainext p {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 20px;
+}
+
+.mainext img {
+
+    align-items: center;
+    margin: 20px;
+    height: 150px;
+
+}
