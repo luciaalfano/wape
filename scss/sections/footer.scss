@@ -1,7 +1,9 @@
 .footer {
+    font-family: $fuente-nav;
     background-color: #111141;
     font-size: 10px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .footer ul {
@@ -17,6 +19,7 @@
     padding: 5px;
     margin: 5px;
     list-style: none;
+    
 } 
 .pf {
     margin: auto;
