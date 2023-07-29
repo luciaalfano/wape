@@ -1,19 +1,17 @@
 .maincontacto {
     font-family: $fuente-main;
+    height: 1500px; 
 }
 .accordion {
-    width: 500px;
+    width: 400px;
     margin: auto;
 }
 
 .form-contacto {
 
-    width: 100%;
-    margin-bottom: 10px;
+    width: 400px;
     margin: auto;
-  
-}
-
-.maincontacto {
-    height: 1000px; 
+    .g-recaptcha {
+        margin: 20px 0px 30px;
+    }
 }
