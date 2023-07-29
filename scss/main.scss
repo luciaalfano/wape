@@ -9,7 +9,7 @@
 @import "./sections/main-interior.scss";
 @import "./sections/main-nosotros.scss";
 
-@media (min-width: 680px) {   
+@media (min-width: 680px) {
     .header {
         flex-direction: row;
     }
@@ -60,20 +60,47 @@
         font-size: 25px;
     }
 
-    .mainext h1 {
-        font-size: 50px;
+    .section1 {
+        margin: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .section2 {
+        margin: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
     }
 
     .mainext img {
 
-        height: 350px;
+        width: 450px;
+        height: 300px;
 
+    }
+    .mainext div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $celeste;
     }
 
 
     .mainint img {
 
-        height: 350px;
+        height: 250px;
 
     }
 
@@ -98,6 +125,10 @@
     .h2o {
         font-size: 40px;
 
+    }
+    .form-contacto {
+        margin: auto;
+        margin-bottom: 10px;
     }
 
 }
