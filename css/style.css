@@ -290,7 +290,8 @@ iframe {
     margin-bottom: 10px; }
   .mainext img {
     width: 450px;
-    height: 300px; }
+    height: 300px;
+    border-radius: 8px; }
   .footer {
     margin: auto; }
   .mainint img {
