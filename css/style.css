@@ -224,6 +224,10 @@ iframe {
   border-radius: 5px;
   margin: 15px; }
 
+.h2o a {
+  text-decoration: none;
+  color: #BFACE2; }
+
 @media (min-width: 699px) {
   .header {
     flex-direction: row; }
