@@ -40,6 +40,7 @@
     }
 
     .main p {
+        margin: 20px;
         padding: 20px;
         font-size: 25px;
     }
@@ -144,6 +145,33 @@
     .h2o {
         font-size: 40px;
 
+    }
+    .section3 {
+        background-color: #f9e3b8a9;
+        border-radius: 8px;
+        margin: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .section4 {
+        background-color: #f9e3b8a9;
+        border-radius: 8px;
+        margin: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
     }
 }
    

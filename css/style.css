@@ -34,6 +34,10 @@
   color: white;
   text-align: center; }
 
+.inicio-footer a {
+  text-decoration: none;
+  color: #EEEEEE; }
+
 .header {
   font-family: "Quicksand", sans-serif;
   display: flex;
@@ -80,6 +84,8 @@
     margin: 20px 0px 30px; }
 
 .imagenes {
+  background-color: #d8dadb;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -176,6 +182,13 @@
   padding: 25px;
   text-align: center; }
 
+.imagenes .imagenes {
+  background-color: #d8dadb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .mainn {
   display: flex;
   flex-direction: column;
@@ -228,6 +241,7 @@ iframe {
     padding: 20px;
     font-size: 60px; }
   .main p {
+    margin: 20px;
     padding: 20px;
     font-size: 25px; }
   .main img {
@@ -287,4 +301,24 @@ iframe {
   .mainn p {
     font-size: 35px; }
   .h2o {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .section3 {
+    background-color: #f9e3b8a9;
+    border-radius: 8px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; }
+    .section3 p {
+      text-align: center; }
+  .section4 {
+    background-color: #f9e3b8a9;
+    border-radius: 8px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; }
+    .section4 p {
+      text-align: center; } }
