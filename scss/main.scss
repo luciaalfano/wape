@@ -90,12 +90,16 @@
     }
 
     .maincontacto {
-        height: 1700px;
+        min-height: 1750px;
     }
     .maincontacto h2 {
         margin: 45px;
         box-shadow: 0px 2px 10px; 
         padding: 20px
+    }
+    .accordion-item {
+        width: 600px;
+        margin: auto;
     }
     .form-contacto {
         width: 600px;
